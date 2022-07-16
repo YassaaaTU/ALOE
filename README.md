@@ -4,7 +4,7 @@
 
 
  > * @author:      DeceasedGhostt
- > * @link:        https://www.deceasedghost.com
+ > * @link:        https://www.curseforge.com/minecraft/modpacks/aloe-a-little-of-everything
  > * @license:     https://github.com/YassaaaTU/ALOE/blob/main/LICENSE
  > * @version:     <i>ALPHA-0.1</i>
  
