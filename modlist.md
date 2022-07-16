@@ -1,8 +1,8 @@
 <h1><i>ALOE</i> - A Little Of Everything</h1>
 
  > * @author:      DeceasedGhostt
- > * @link:        http://www.deceasedghost.com
- > * @license:     http://www.deceasedghost.com/license
+ > * @link:        https://www.deceasedghost.com
+ > * @license:     https://github.com/YassaaaTU/ALOE/blob/main/LICENSE
  > * @version:     <i>ALPHA-0.1</i>
  
 ---
