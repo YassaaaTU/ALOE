@@ -5,9 +5,7 @@
  > * @license:     http://www.deceasedghost.com/license
  > * @version:     <i>ALPHA-0.1</i>
  
-
-
-===============================
+---
 
 
 <h2><a>Base Mods</a></a></h2>
