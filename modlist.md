@@ -1,4 +1,4 @@
-<h1><i>ALOY</i> - A Little Of Everything</h1>
+<h1><i>ALOE</i> - A Little Of Everything</h1>
 
  > * @author:      DeceasedGhostt
  > * @link:        http://www.deceasedghost.com
