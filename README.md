@@ -4,7 +4,7 @@
 
 
  > * @author:      DeceasedGhostt
- > * @link:        http://www.deceasedghost.com
+ > * @link:        https://www.deceasedghost.com
  > * @license:     https://github.com/YassaaaTU/ALOE/blob/main/LICENSE
  > * @version:     <i>ALPHA-0.1</i>
  
