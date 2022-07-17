@@ -105,6 +105,7 @@
  + Shield Parry
  + Fast Leaf Decay
  + Better Advancements
+ + Get it together, Drops!
 
 <h2><a>Cosmetic, QOL, Informations</a></h2>
 
