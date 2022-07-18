@@ -7,7 +7,7 @@
  > * @link:        https://www.curseforge.com/minecraft/modpacks/aloe-a-little-of-everything
  > * @license:     https://github.com/YassaaaTU/ALOE/blob/main/LICENSE
  > * @version:     <i>ALPHA-0.1</i>
- > * For logs use  https://mclo.gs/
+ > * For crash reports or logs use  https://mclo.gs/
  
 ---
 
