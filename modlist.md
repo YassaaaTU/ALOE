@@ -106,6 +106,7 @@
  + Fast Leaf Decay
  + Better Advancements
  + Get it together, Drops!
+ + Smooth Boot (Reloaded)
 
 <h2><a>Cosmetic, QOL, Informations</a></h2>
 
@@ -172,7 +173,7 @@
  + UI
  + LootJS: KubeJS Addon 
 
-<h2><a>Tech</a></h2>
+<h2><a>Tech & Automation</a></h2>
 
  + Powah!
  + Bigger Reactors
@@ -191,13 +192,10 @@
  + FE Transformer
  + Simple Storage Network
  + Mob Grinding Utils
- 
-<h2><a>Storage Drawers</a></h2>
- 
- + Framed Compacting Drawers
- + Drawers Tooltip
- + DrawerFPS
- + More Storage Drawers
+ + Minecolonies
+ + Minecolonies for ComputerCraft
+ + Crafting Automat
+ + Hostile Neural Networks
 
 <h2><a>Magic</a></h2>
 
@@ -215,7 +213,15 @@
  + Ensorcellation
  + Potions Master
  + Tool Leveling+
+ + Allurement
  
+<h2><a>Storage Drawers</a></h2>
+ 
+ + Framed Compacting Drawers
+ + Drawers Tooltip
+ + DrawerFPS
+ + More Storage Drawers
+
 <h2><a>Decoration</a></h2>
 
  + Engineer's Decor
@@ -385,11 +391,4 @@
  + Progressive Bosses
  + Enhanced Celestials
  + Wither Skeleton Tweaks
-
-
-<h2><a>Automation</a></h2>
-
- + Minecolonies
- + Minecolonies for ComputerCraft
- + Crafting Automat
- + Hostile Neural Networks
+ + Savage & Ravage
