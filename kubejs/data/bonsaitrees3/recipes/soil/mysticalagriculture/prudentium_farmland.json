@@ -1,0 +1,14 @@
+{
+    "type": "bonsaitrees3:soil",
+    "mod": "mysticalagriculture",
+    "tickModifier": 1.9,                         
+    "soil": {
+      "item": "mysticalagriculture:prudentium_farmland"            
+    },
+    "compatibleSoilTags": [
+      "tier2", "dirt", "grass"                                    
+    ],
+    "display": {
+      "block": "mysticalagriculture:prudentium_farmland"            
+    }
+  }

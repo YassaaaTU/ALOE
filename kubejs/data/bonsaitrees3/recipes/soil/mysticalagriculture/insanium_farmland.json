@@ -1,0 +1,14 @@
+{
+    "type": "bonsaitrees3:soil",
+    "mod": "mysticalagradditions",
+    "tickModifier": 0.7,                         
+    "soil": {
+      "item": "mysticalagradditions:insanium_farmland"            
+    },
+    "compatibleSoilTags": [
+      "tier6", "dirt", "grass"
+    ],
+    "display": {
+      "block": "mysticalagradditions:insanium_farmland"            
+    }
+  }

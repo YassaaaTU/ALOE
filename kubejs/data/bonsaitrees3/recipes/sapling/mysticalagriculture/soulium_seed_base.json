@@ -1,0 +1,30 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "mod": "mysticalagriculture",
+    "sapling": { "item": "mysticalagriculture:soulium_seed_base" },
+    "drops": [
+      {
+        "rolls": 1, "chance": 0.1,
+        "result": { "item": "mysticalagriculture:soulium_seed_base" }
+      },
+      {
+        "rolls": 1, "chance": 1,
+        "result": { "item": "mysticalagriculture:soulium_dust" }
+      },
+      {
+        "rolls": 1, "chance": 0.10,
+        "result": { "item": "mysticalagriculture:soulium_dust" },
+        "requiredUpgrades": {
+            "tag": "mysticalagriculture:tier0"
+        } 
+      },
+      {
+        "rolls": 1, "chance": 0.20,
+        "result": { "item": "mysticalagriculture:soulium_seed_base" },
+        "requiredUpgrades": {
+            "tag": "mysticalagriculture:tier1"
+        } 
+      }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+  }

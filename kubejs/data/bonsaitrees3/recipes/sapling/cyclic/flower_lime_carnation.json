@@ -1,0 +1,12 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "mod": "cyclic",
+    "sapling": { "item": "cyclic:flower_lime_carnation" },
+    "drops": [
+      {
+        "rolls": 2, "chance": 1,
+        "result": { "item": "cyclic:flower_lime_carnation" }
+      }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+  }

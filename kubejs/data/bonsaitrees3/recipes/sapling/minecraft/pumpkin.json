@@ -1,0 +1,19 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "mod": "minecraft",
+    "sapling": { "item": "minecraft:pumpkin_seeds" },
+    "drops": [
+      {
+        "rolls": 2, "chance": 1,
+        "result": { "item": "minecraft:pumpkin" }
+      },
+      {
+        "rolls": 4, "chance": 0.50,
+        "result": { "item": "minecraft:pumpkin" },
+        "requiredUpgrades": {
+            "item": "cyclic:sprinkler"
+        } 
+      }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+  }

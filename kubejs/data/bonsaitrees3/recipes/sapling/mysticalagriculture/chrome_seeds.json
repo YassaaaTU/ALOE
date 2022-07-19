@@ -1,0 +1,30 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "mod": "mysticalagriculture",
+    "sapling": { "item": "mysticalagriculture:chrome_seeds" },
+    "drops": [
+      {
+        "rolls": 1, "chance": 0.1,
+        "result": { "item": "mysticalagriculture:chrome_seeds" }
+      },
+      {
+        "rolls": 1, "chance": 1,
+        "result": { "item": "mysticalagriculture:chrome_essence" }
+      },
+      {
+        "rolls": 1, "chance": 0.10,
+        "result": { "item": "mysticalagriculture:chrome_essence" },
+        "requiredUpgrades": {
+            "tag": "mysticalagriculture:tier0"
+        } 
+      },
+      {
+        "rolls": 1, "chance": 0.20,
+        "result": { "item": "mysticalagriculture:chrome_seeds" },
+        "requiredUpgrades": {
+            "tag": "mysticalagriculture:tier4"
+        } 
+      }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+  }

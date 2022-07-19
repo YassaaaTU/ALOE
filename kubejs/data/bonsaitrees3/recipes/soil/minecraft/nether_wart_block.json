@@ -1,0 +1,14 @@
+{
+    "type": "bonsaitrees3:soil",
+    "mod": "minecraft",
+    "tickModifier": 2.5,
+    "soil": {
+        "item": "minecraft:nether_wart_block"
+    },
+    "compatibleSoilTags": [
+        "netherrack", "netherwart"
+    ],
+    "display": {
+        "block": "minecraft:nether_wart_block"
+    }
+}

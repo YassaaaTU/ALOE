@@ -1,0 +1,19 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "mod": "minecraft",
+    "sapling": { "item": "minecraft:kelp" },
+    "drops": [
+      {
+        "rolls": 2, "chance": 1,
+        "result": { "item": "minecraft:kelp" }
+      },
+      {
+        "rolls": 4, "chance": 1,
+        "result": { "item": "minecraft:kelp" },
+        "requiredUpgrades": {
+            "item": "minecraft:axolotl_bucket"
+        } 
+      }
+    ],
+    "compatibleSoilTags": ["water"]
+  }

@@ -1,0 +1,14 @@
+{
+    "type": "bonsaitrees3:soil",
+    "mod": "mysticalagriculture",
+    "tickModifier": 1.6,                         
+    "soil": {
+      "item": "mysticalagriculture:tertium_farmland"            
+    },
+    "compatibleSoilTags": [
+      "tier3", "dirt", "grass"                                    
+    ],
+    "display": {
+      "block": "mysticalagriculture:tertium_farmland"            
+    }
+  }

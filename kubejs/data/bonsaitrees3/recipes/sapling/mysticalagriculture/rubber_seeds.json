@@ -1,0 +1,30 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "mod": "mysticalagriculture",
+    "sapling": { "item": "mysticalagriculture:rubber_seeds" },
+    "drops": [
+      {
+        "rolls": 1, "chance": 0.1,
+        "result": { "item": "mysticalagriculture:rubber_seeds" }
+      },
+      {
+        "rolls": 1, "chance": 1,
+        "result": { "item": "mysticalagriculture:rubber_essence" }
+      },
+      {
+        "rolls": 1, "chance": 0.10,
+        "result": { "item": "mysticalagriculture:rubber_essence" },
+        "requiredUpgrades": {
+            "tag": "mysticalagriculture:tier0"
+        } 
+      },
+      {
+        "rolls": 1, "chance": 0.20,
+        "result": { "item": "mysticalagriculture:rubber_seeds" },
+        "requiredUpgrades": {
+            "tag": "mysticalagriculture:tier2"
+        } 
+      }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+  }

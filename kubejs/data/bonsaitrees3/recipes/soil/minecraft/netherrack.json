@@ -1,0 +1,14 @@
+{
+    "type": "bonsaitrees3:soil",
+    "mod": "minecraft",
+    "tickModifier": 2.4,
+    "soil": {
+        "item": "minecraft:netherrack"
+    },
+    "compatibleSoilTags": [
+        "netherrack"
+    ],
+    "display": {
+        "block": "minecraft:netherrack"
+    }
+}

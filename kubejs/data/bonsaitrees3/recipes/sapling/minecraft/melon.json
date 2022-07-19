@@ -1,0 +1,19 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "mod": "minecraft",
+    "sapling": { "item": "minecraft:melon_seeds" },
+    "drops": [
+      {
+        "rolls": 2, "chance": 1,
+        "result": { "item": "minecraft:melon" }
+      },
+      {
+        "rolls": 4, "chance": 0.50,
+        "result": { "item": "minecraft:melon" },
+        "requiredUpgrades": {
+            "item": "cyclic:sprinkler"
+        } 
+      }
+    ],
+    "compatibleSoilTags": ["dirt", "tier1", "tier2", "tier3", "tier4", "tier5", "tier6"]
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "mod": "minecraft",
+    "sapling": { "item": "minecraft:cactus" },
+    "drops": [
+      {
+        "rolls": 2, "chance": 1,
+        "result": { "item": "minecraft:cactus" }
+      },
+      {
+        "rolls": 4, "chance": 0.50,
+        "result": { "item": "minecraft:cactus" },
+        "requiredUpgrades": {
+            "item": "cyclic:sprinkler"
+        } 
+      }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+  }
