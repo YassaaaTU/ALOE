@@ -267,7 +267,7 @@ onEvent("recipes", (event) => {
 	event.remove({output: Item.of('minecraft:splash_potion', '{Potion:"potionsmaster:vibranium_sight"}')})
 	event.remove({output: Item.of('minecraft:lingering_potion', '{Potion:"potionsmaster:vibranium_sight"}')})
 	event.remove({output: Item.of('minecraft:tipped_arrow', '{Potion:"potionsmaster:vibranium_sight"}')})
-
+  event.remove({ id: 'alltheores:enderium_dust_from_alloy_blending' })
   // ---------- Mekanism Section Begin ---------- \\
 
   //Mekanism -> ATO
@@ -309,6 +309,9 @@ onEvent("recipes", (event) => {
       });
     }
   });
+
+  REP(`ftbic:charcoal_dust`, `mekanism:dust_charcoal`);
+  REP(`ftbic:coal_dust`, `mekanism:dust_coal`);
 
   // ---------- Mekanism Section End ---------- \\
 
@@ -422,6 +425,7 @@ onEvent("recipes", (event) => {
   //Create powdered/dust obsidian <- Mekanism, Electrodynamics
   REP(`mekanism:dust_obsidian`, `create:powdered_obsidian`);
   // REP(`electrodynamics:dustobsidian`, `create:powdered_obsidian`);
+  REP(`ftbic:obsidian_dust`, `create:powdered_obsidian`);
 
   // ---------- Create Section End ---------- \\
 
@@ -590,9 +594,35 @@ onEvent("recipes", (event) => {
 
   // ---------- FTB Industrial Contraptions Section Start ---------- \\
 
-  atoIngots.forEach(ore => {
-    REP(`ftbic:${ore}_ore`, `alltheores:${ore}_ore`);
-    REP(`ftbic:deepslate_${ore}_ore`, `alltheores:${ore}_slate_ore`);
+  atoIngots.forEach(metal => {
+    REP(`ftbic:${metal}_ore`, `alltheores:${metal}_ore`);
+    REP(`ftbic:deepslate_${metal}_ore`, `alltheores:${metal}_slate_ore`);
+    REP(`ftbic:${metal}_ingot`, `alltheores:${metal}_ingot`);
+  }
+  );
+
+  atoDusts.forEach(metal => {
+    REP(`ftbic:${metal}_dust`, `allthedusts:${metal}_dust`);
+  }
+  );
+
+  atoNuggets.forEach(metal => {
+    REP(`ftbic:${metal}_nugget`, `allthenuggets:${metal}_nugget`);
+  }
+  );
+
+  atoRods.forEach(metal => {
+    REP(`ftbic:${metal}_rod`, `alltherods:${metal}_rod`);
+  }
+  );
+
+  atoGears.forEach(metal => {
+    REP(`ftbic:${metal}_gear`, `allthegears:${metal}_gear`);
+  }
+  );
+  
+  atoRaw.forEach(metal => {
+    REP(`ftbic:${metal}_chunk`, `alltheores:raw_${metal}`);
   }
   );
 
@@ -602,7 +632,84 @@ onEvent("recipes", (event) => {
   }
   );
 
+  event.remove({ id: `ftbic:shaped/mixed_metal_blend_1`});
+  event.remove({ id: `ftbic:shaped/mixed_metal_blend_2`});
+  event.remove({ id: `ftbic:shaped/mixed_metal_blend_3`});
+  event.shaped(`3x ftbic:mixed_metal_blend`, [`EEE`, `III`, `BBB`], {
+    E: `#forge:dusts/enderium`,
+    I: `#forge:dusts/iridium`,
+    B: `#forge:dusts/bronze`
+    });
+
+  event.remove({ id: `ftbic:shaped/enderium_ingot`});
+  event.shaped(`2x alltheores:enderium_ingot`, [`LLL`, `FDF`, `EFE`], {
+    L: `#forge:dusts/lead`,
+    F: `minecraft:fire_charge`,
+    D: `#forge:dusts/diamond`,
+    E: `#forge:dusts/ender`
+  })
+
   // ---------- FTB Industrial Contraptions Section End ---------- \\
+
+  // ---------- Industrial Foregoing Section Start ---------- \\
+
+    event.remove({ id: `industrialforegoing:dissolution_chamber/infinity_drill`})
+    event.remove({ id: `industrialforegoing:disenchant_infinity_drill`})
+    event.remove({ id: `industrialforegoing:dissolution_chamber/infinity_saw`})
+    event.remove({ id: `industrialforegoing:disenchant_infinity_saw`})
+    event.remove({ id: `industrialforegoing:dissolution_chamber/infinity_hammer`})
+    event.remove({ id: `industrialforegoing:disenchant_infinity_hammer`})
+    event.remove({ id: `industrialforegoing:dissolution_chamber/infinity_trident`})
+    event.remove({ id: `industrialforegoing:disenchant_infinity_trident`})
+    event.remove({ id: `industrialforegoing:dissolution_chamber/infinity_backpack`})
+    event.remove({ id: `industrialforegoing:disenchant_infinity_backpack`})
+    event.remove({ id: `industrialforegoing:dissolution_chamber/infinity_launcher`})
+    event.remove({ id: `industrialforegoing:disenchant_infinity_launcher`})
+    event.remove({ id: `industrialforegoing:dissolution_chamber/infinity_nuke`})
+    event.remove({ id: `industrialforegoing:disenchant_infinity_nuke`})
+
+    [`iron`, `gold`, `diamond`].forEach(metal => {
+      REP(`industrialforegoing:${metal}_gear`, `allthegears:${metal}_gear`);
+    });
+
+  // ---------- Industrial Foregoing Section End ---------- \\
+
+  // ---------- Galosphere Section Start ---------- \\
+
+    REP(`galosphere:raw_silver`, `alltheores:raw_silver`);
+    REP(`galosphere:silver_nugget`, `allthenuggets:silver_nugget`);
+
+  // ---------- Galosphere Section End ---------- \\
+
+  // ---------- Mystical World Section Start ---------- \\
+
+    [`tin`, `lead`, `silver`].forEach(metal => {
+      REP(`mysticalworld:${metal}_ingot`, `alltheores:${metal}_ingot`);
+    }
+    );
+    REP(`mysticalworld:sapphire`, `alltheores:sapphire`);
+    atoNuggets.forEach(metal => {
+      REP(`mysticalworld:${metal}_nugget`, `allthenuggets:${metal}_nugget`);
+    }
+    );
+    atoDusts.forEach(metal => {
+      REP(`mysticalworld:${metal}_dust`, `allthedusts:${metal}_dust`);
+    }
+    );
+
+    event.remove({ id: `jaopca:mekanism.dust_to_material.sapphire`});
+    event
+    .custom({
+      type: `mekanism:enriching`,
+        input: {
+            item: `alltheores:sapphire_dust`,
+        },
+      output: {
+        item: `alltheores:sapphire`,
+      },
+    })
+
+  // ---------- Mystical World Section End ---------- \\
 
   /*
   ===== FIX/REMOVE BARRIER BLOCK RECIPES =====

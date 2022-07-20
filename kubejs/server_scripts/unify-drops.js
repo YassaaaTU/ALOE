@@ -305,6 +305,68 @@ onEvent("lootjs", (event) => {
             .smeltLoot();
     });
 
+    //FTB Industrial Contraptions Ores -> ATO ore drops
+    [`aluminum`, `iridium`, `lead`, `tin`, `uranium`].forEach((item) => {
+            
+            event
+                .addBlockLootModifier(`ftbic:${item}_ore`)
+                .replaceLoot(`ftbic:${item}_chunk`, `alltheores:raw_${item}`, true)
+                .applyOreBonus("minecraft:fortune")
+                .matchMainHand(ItemFilter.hasEnchantment("cyclic:auto_smelt"))
+                .smeltLoot();
+            event
+                .addBlockLootModifier(`ftbic:deepslate_${item}_ore`)
+                .replaceLoot(`ftbic:${item}_chunk`, `alltheores:raw_${item}`, true)
+                .applyOreBonus("minecraft:fortune")
+                .matchMainHand(ItemFilter.hasEnchantment("cyclic:auto_smelt"))
+                .smeltLoot();
+        }
+    );
+
+    //Galosphere Ores -> ATO ore drops
+    event
+        .addBlockLootModifier(`galosphere:silver_ore`)
+        .replaceLoot(`galosphere:raw_silver`, `alltheores:raw_silver`, true)
+        .applyOreBonus("minecraft:fortune")
+        .matchMainHand(ItemFilter.hasEnchantment("cyclic:auto_smelt"))
+        .smeltLoot();
+    event
+        .addBlockLootModifier(`galosphere:deepslate_silver_ore`)
+        .replaceLoot(`galosphere:raw_silver`, `alltheores:raw_silver`, true)
+        .applyOreBonus("minecraft:fortune")
+        .matchMainHand(ItemFilter.hasEnchantment("cyclic:auto_smelt"))
+        .smeltLoot();
+
+    //Mystical World Ores -> ATO ore drops
+    [`tin`, `lead`, `silver`].forEach((item) => {
+
+        event
+            .addBlockLootModifier(`mysticalworld:${item}_ore`)
+            .replaceLoot(`mysticalworld:raw_${item}`, `alltheores:raw_${item}`, true)
+            .applyOreBonus("minecraft:fortune")
+            .matchMainHand(ItemFilter.hasEnchantment("cyclic:auto_smelt"))
+            .smeltLoot();
+        event
+            .addBlockLootModifier(`mysticalworld:deepslate_${item}_ore`)
+            .replaceLoot(`mysticalworld:raw_${item}`, `alltheores:raw_${item}`, true)
+            .applyOreBonus("minecraft:fortune")
+            .matchMainHand(ItemFilter.hasEnchantment("cyclic:auto_smelt"))
+            .smeltLoot();
+    });
+
+    event
+        .addBlockLootModifier(`mysticalworld:sapphire_ore`)
+        .replaceLoot(`mysticalworld:sapphire`, `alltheores:sapphire`, true)
+        .applyOreBonus("minecraft:fortune")
+        .matchMainHand(ItemFilter.hasEnchantment("cyclic:auto_smelt"))
+        .smeltLoot();
+    event
+        .addBlockLootModifier(`mysticalworld:deepslate_sapphire_ore`)
+        .replaceLoot(`mysticalworld:sapphire`, `alltheores:sapphire`, true)
+        .applyOreBonus("minecraft:fortune")
+        .matchMainHand(ItemFilter.hasEnchantment("cyclic:auto_smelt"))
+        .smeltLoot();
+
 });
 
 console.info('Server-script Unify-Drops.js reloaded successfully!');

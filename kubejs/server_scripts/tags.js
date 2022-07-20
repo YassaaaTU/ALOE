@@ -161,6 +161,41 @@ onEvent('tags.items', event => {
 	event.add(`mysticalagriculture:tier5`, `mysticalagriculture:supremium_reprocessor`)
 	event.add(`mysticalagriculture:tier6`, `mysticaladaptations:insanium_reprocessor`)
 
+
+    //ftbic tags
+    atoIngots.forEach(metal => {
+        event.removeAllTagsFrom(`ftbic:${metal}_ingot`);
+    }
+    );
+    atoDusts.forEach(metal => {
+        event.removeAllTagsFrom(`ftbic:${metal}_dust`);
+    }
+    );
+    event.removeAllTagsFrom(`ftbic:coal_dust`);
+    event.removeAllTagsFrom(`ftbic:charcoal_dust`);
+    event.removeAllTagsFrom(`ftbic:obsidian_dust`);
+    atoPlates.forEach(metal => {
+        event.removeAllTagsFrom(`ftbic:${metal}_plate`);
+    }
+    );
+    atoRaw.forEach(metal => {
+        event.removeAllTagsFrom(`ftbic:${metal}_chunk`);
+    }
+    );
+    atoNuggets.forEach(metal => {
+        event.removeAllTagsFrom(`ftbic:${metal}_nugget`);
+    }
+    );
+    atoRods.forEach(metal => {
+        event.removeAllTagsFrom(`ftbic:${metal}_rod`);
+    }
+    );
+    atoGears.forEach(metal => {
+        event.removeAllTagsFrom(`ftbic:${metal}_gear`);
+    }
+    );
+
+    event.removeAllTagsFrom(`mysticalworld:sapphire`);
 })
 
 console.info('Server-script Tags.js reloaded successfully!');
