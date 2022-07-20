@@ -107,6 +107,7 @@
  + Better Advancements
  + Get it together, Drops!
  + Smooth Boot (Reloaded)
+ + OldCombatMod
 
 <h2><a>Cosmetic, QOL, Informations</a></h2>
 
@@ -128,6 +129,7 @@
  + Extended Clouds
  + Detailed Armor Bar
  + Sooty Chimneys
+ + Caeulum
 
 <h2><a>Curios</a></h2>
 
