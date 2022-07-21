@@ -18,7 +18,6 @@
  + Quark
  + Apotheosis
  + Nature's Compass
- + Immersive FX
  + Lootr
  + Smaller Nether Portals
  + Building Gadgets
@@ -26,14 +25,12 @@
  + Tool Belt
  + Cleancut
  + Construction Wand
- + RPG Parties
  + Spice of Life: Carrot Edition
  + Falling Tree
  + Morph-o-Tool
  + Potion Bundles
  + Jobs+
  + Stack Refill
- + BetterF3
  + Target Dummy
  + Jade + addon
  + FindMe
@@ -85,13 +82,11 @@
  + JAOPCA
  + Alternate Current
  + AttributeFix
- + Spark
  + NetherPortalFix
  + Configured
  + Catalogue
  + Lazy DataFixerUpper(LazyDFU)
  + Login Protection
- + Observable
  + Dynamic View
  + My Server Is Compatible
  + Too Fast
@@ -329,7 +324,6 @@
  + Incendium
  + Mob Compackability (Mob Compack)
  + Volcanic Caverns
- + The Wild Update 1.19
  + Habitat
  + Unstructured
  + Hals Enhanced Biomes
@@ -354,7 +348,6 @@
  + Dungeon Clusters
  + Large Ore Deposists
  + ATO - All The Ores
- + AllTheCompressed
  + Basic Nether Ores
  + Basic End Ores
  + Just Another Mining Dimension
