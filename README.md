@@ -19,26 +19,8 @@
 
 </h1>
 
-<div id="donate-button-container">
+<a href="https://www.paypal.com/donate/?hosted_button_id=H4C9RMQ3P3KUA">
 
-<div id="donate-button">
+  <img src="https://pics.paypal.com/00/s/M2E1NTRhMTItZjdiYy00N2Y0LTg1MWMtNDIwNjIwYjQ1ODkx/file.PNG" alt="Donate with PayPal" title="PayPal - The safer, easier way to pay online!" />
 
-</div>
-
-<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"> </script>
-
-<script>
-
-PayPal.Donation.Button({
-env:'production',
-hosted_button_id:'H4C9RMQ3P3KUA',
-image: {
-src:'https://pics.paypal.com/00/s/M2E1NTRhMTItZjdiYy00N2Y0LTg1MWMtNDIwNjIwYjQ1ODkx/file.PNG',
-alt:'Donate with PayPal button',
-title:'PayPal - The safer, easier way to pay online!',
-}
-}).render('#donate-button');
-
-</script>
-
-</div>
+</a>
