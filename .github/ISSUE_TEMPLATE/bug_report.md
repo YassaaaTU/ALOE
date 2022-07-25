@@ -29,3 +29,7 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+**Logs**
+Please use either mclo.gs or crashy.com
+Please use either [MCLogs](https://mclo.gs/) or [Crashy](http://crashy.net/) for logs or crash reports
