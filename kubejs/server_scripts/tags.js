@@ -15,6 +15,9 @@ let atoPlates = ['aluminum', 'lead', 'nickel', 'osmium', 'platinum', 'silver', '
 let atoMystic = ['aluminum', 'brass', 'bronze', 'constantan', 'electrum', 'invar', 'iridium', 'lead', 'nickel', 'platinum', 'silver', 'steel', 'tin', 'uranium', 'zinc'];
 let circuits = ['basic', 'advanced', 'elite', 'ultimate'];
 
+//Dorian is boiah gay
+let dorianIngots = ['copper', 'tin', 'lead', 'silver', 'nickel', 'steel', 'invar', 'electrum', 'bronze', 'enderium', 'lumium', 'signalum', 'constantan', 'brass', 'iridium'];
+
 // ... Metals \\
 
 //------- LIST END -------\\ 
