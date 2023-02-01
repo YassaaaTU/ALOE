@@ -3,7 +3,7 @@
  > * @author:      DeceasedGhostt
  > * @link:        https://www.curseforge.com/minecraft/modpacks/aloe-a-little-of-everything
  > * @license:     https://github.com/YassaaaTU/ALOE/blob/main/LICENSE
- > * @version:     <i>ALPHA-0.1.2</i>
+ > * @version:     <i>ALPHA-0.2.0</i>
  
 ---
 
@@ -23,12 +23,10 @@
  + Connectivity
  + Controlling
  + Damage Tilt
- + Despawning Eggs Hatch
  + DEUF - Duplicate Entity UUID Fix
  + Distant Horizons
  + Dynamic View
  + Easier Sleeping
- + Enchantment Descriptions
  + Entity Collision Fix
  + Entity Culling Fix
  + Entity Texture Features
@@ -55,7 +53,6 @@
  + Oculus
  + Personality
  + Polymorph
- + Precise Block Placements
  + Radium Reforged
  + Radon
  + Raised
@@ -63,3 +60,36 @@
  + Smooth Boot
  + Stack Refill
  + Visual Workbench
+
+---
+
+<h2><a>Mechanics & Gameplay changes + additions</a></h2>
+
+ + Corpse
+ + Despawning Eggs Hatch
+ + Effortless Building
+ + Falling tree
+ + Forgving Void
+ + JAOPCA
+ + Lootr
+ + Old Combat Mod
+ + Personality
+ + Precise Block Placements
+ + Responsive Shields
+ + Scaffolding drops nearby
+ + Shield Parry
+ + Smaller Nether Portal
+ + Speed Building - Scaffoling behavior
+ + Spice of Life: Carrot Edition
+ + SwingTrhoughGrass
+ 
+
+---
+
+<h2><a>Informations</a></h2>
+
+ + Enchantment Descriptions
+ + Jade + addon
+ + JourneyMap + addon
+ + MmmMmmMmmMmm (Target Dummy)
+ + REI + addons
