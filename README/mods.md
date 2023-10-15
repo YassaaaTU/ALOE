@@ -60,9 +60,10 @@
 * Clickable advancements
 * Resourcify
 * Better Third Person
-* Map Atlases
 * AppleSkin
 * Enchantment Descriptions
+* Xaero's Minimap & World Map
+  * Xaero Arrow Fix
 {% endtab %}
 
 {% tab title="Utility" %}
@@ -72,8 +73,7 @@
 * Mixin In Heaven
 * FullStack Watchdog
 * Yeetus Experimentus
-* JEI + EMI
-  * EMI Trades
+* REI
 * Mouse Tweaks
 * Controlling
 * Jade
@@ -108,6 +108,7 @@
 * Forge CIT
 * Oculus \[Shaders]
 * Obscuria Tooltips
+* Loot Beams: Relooted!
 {% endtab %}
 
 {% tab title="World Generation" %}
