@@ -2,6 +2,7 @@
 
 * [Changelog](README.md)
 * [ALOE - A Little Of Everything](<README (1).md>)
+* [Mods](mods.md)
 * [.github](.github/README.md)
   * [ISSUE\_TEMPLATE](.github/ISSUE\_TEMPLATE/README.md)
     * [\[BUG\]](.github/ISSUE\_TEMPLATE/bug\_report.md)
