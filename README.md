@@ -1,6 +1,6 @@
 <h1><i>ALOE</i> - A Little Of Everything</h1>
 
-![Static Badge](https://img.shields.io/badge/Forge-orange?style=for-the-badge&logoColor=rgb(28%2C%2028%2C%2028)&label=Modloader&labelColor=2d2d2d&color=rgb(224%2C%2078%2C%2020)) ![](https://cf.way2muchnoise.eu/versions/645353.svg?badge_style=for_the_badge) ![](https://cf.way2muchnoise.eu/short_645353.svg?badge_style=for_the_badge)
+![](https://img.shields.io/badge/Forge-orange?style=for-the-badge&logoColor=rgb(28%2C%2028%2C%2028)&label=Modloader&labelColor=2d2d2d&color=rgb(224%2C%2078%2C%2020)) ![](https://cf.way2muchnoise.eu/versions/645353.svg?badge_style=for_the_badge) ![](https://cf.way2muchnoise.eu/short_645353.svg?badge_style=for_the_badge)
 
 
 
