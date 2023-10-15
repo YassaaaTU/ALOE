@@ -13,8 +13,8 @@
 * Packet Fixer
 * Async Locator
 * Fast Paintings
-* Too Fast \~\~Server
-* Fast Portals \~\~Server
+* Too Fast
+* Fast Portals
 * Fast IP Ping
 * Not Enough Recipe Book \[NERB]
 * Max Health Fix
@@ -54,13 +54,15 @@
 * No Telemetry
 * DEUF - Duplicate Entity UUID Fix
 * Neruina - Ticking Entity Fixer
-* Cull Leaves
 {% endtab %}
 
 {% tab title="QoL" %}
 * Clickable advancements
 * Resourcify
-*
+* Better Third Person
+* Map Atlases
+* AppleSkin
+* Enchantment Descriptions
 {% endtab %}
 
 {% tab title="Utility" %}
@@ -69,6 +71,18 @@
 * Global Packs
 * Mixin In Heaven
 * FullStack Watchdog
+* Yeetus Experimentus
+* JEI + EMI
+  * EMI Trades
+* Mouse Tweaks
+* Controlling
+* Jade
+  * Jade Addons
+  * <mark style="color:red;">JadeColonies \[Add later]</mark>
+* Advancements Plaques
+* Mob Plaques
+* Better Advancements
+* NBT Autocomplete
 {% endtab %}
 
 {% tab title="Adventure & RPG" %}
@@ -78,8 +92,12 @@
 * Dusk
 * Epic Fight
 * Weapons of Miracles - epic fight
-
-
+* Mob Sunscreen
+* Bonefires
+* Argonauts
+* Cadmus
+* Auto Leveling
+*
 {% endtab %}
 
 {% tab title="Visuals" %}
@@ -90,6 +108,13 @@
 * Forge CIT
 * Oculus \[Shaders]
 *
+{% endtab %}
+
+{% tab title="World Generation" %}
+* Terralith
+* Tectonic
+* Biomes O' Plenty
+* Geophilic - Biome Overhauls
 {% endtab %}
 {% endtabs %}
 
