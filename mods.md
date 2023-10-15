@@ -3,7 +3,7 @@
 {% tabs %}
 {% tab title="Performance & Fixes" %}
 {% code fullWidth="true" %}
-```markup
+```markdown
 > Embeddium
 > TexTrue's Embeddium Options
 > Magnesium/Rubidium Dynamic Lights
