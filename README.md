@@ -1,6 +1,7 @@
 <h1><i>ALOE</i> - A Little Of Everything</h1>
 
-<h5> Minecraft Version 1.20.1 </h5>
+![Static Badge](https://img.shields.io/badge/Forge-orange?style=for-the-badge&logoColor=rgb(28%2C%2028%2C%2028)&label=Modloader&labelColor=2d2d2d&color=rgb(224%2C%2078%2C%2020)) ![](https://cf.way2muchnoise.eu/versions/645353.svg?badge_style=for_the_badge) ![](https://cf.way2muchnoise.eu/short_645353.svg?badge_style=for_the_badge)
+
 
 
  > * @author:      DeceasedGhostt
@@ -9,8 +10,6 @@
  > * @version:     <i>ALPHA-1.0.0</i>
  > * For crash reports or logs use https://mclo.gs/ or https://crashy.net/
 
-https://cf.way2muchnoise.eu/versions/645353.svg
- 
 ---
 
 <a href="https://www.paypal.com/donate/?hosted_button_id=H4C9RMQ3P3KUA">
