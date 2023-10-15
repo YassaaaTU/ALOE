@@ -8,6 +8,8 @@
  > * @license:     https://github.com/YassaaaTU/ALOE/blob/main/LICENSE
  > * @version:     <i>ALPHA-1.0.0</i>
  > * For crash reports or logs use https://mclo.gs/ or https://crashy.net/
+
+https://cf.way2muchnoise.eu/versions/645353.svg
  
 ---
 
